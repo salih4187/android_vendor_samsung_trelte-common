@@ -64,8 +64,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trelte-common/proprietary/etc/firmware/florida-dsp4-rx-anc-nb.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/florida-dsp4-rx-anc-nb.wmfw \
     vendor/samsung/trelte-common/proprietary/etc/firmware/florida-dsp4-rx-anc-wb.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/florida-dsp4-rx-anc-wb.bin \
     vendor/samsung/trelte-common/proprietary/etc/firmware/florida-dsp4-rx-anc-wb.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/florida-dsp4-rx-anc-wb.wmfw \
-    vendor/samsung/trelte-common/proprietary/vendor/firmware/seiren_fw_dram.bin:$(TARGET_COPY_OUT_VENDOR)/vendor/firmware/seiren_fw_dram.bin \
-    vendor/samsung/trelte-common/proprietary/vendor/firmware/seiren_fw_sram.bin:$(TARGET_COPY_OUT_VENDOR)/vendor/firmware/seiren_fw_sram.bin \
+    vendor/samsung/trelte-common/proprietary/vendor/firmware/seiren_fw_dram.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/seiren_fw_dram.bin \
+    vendor/samsung/trelte-common/proprietary/vendor/firmware/seiren_fw_sram.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/seiren_fw_sram.bin \
     vendor/samsung/trelte-common/proprietary/vendor/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_ANALOG_DOCK.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_ANALOG_DOCK.txt \
     vendor/samsung/trelte-common/proprietary/vendor/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt \
     vendor/samsung/trelte-common/proprietary/vendor/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_EARPIECE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_EARPIECE.txt \
@@ -121,8 +121,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trelte-common/proprietary/vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
     vendor/samsung/trelte-common/proprietary/vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
     vendor/samsung/trelte-common/proprietary/lib/libaudioroute.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudioroute.so \
-    vendor/samsung/trelte-common/proprietary/vendor/lib/liblvverx_3.25.00.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblvverx_3.25.00.so \
-    vendor/samsung/trelte-common/proprietary/vendor/lib/liblvvetx_3.25.00.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblvvetx_3.25.00.so \
+    vendor/samsung/trelte-common/proprietary/vendor/lib/liblvverx_3.25.00.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/liblvverx.so \
+    vendor/samsung/trelte-common/proprietary/vendor/lib/liblvvetx_3.25.00.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/liblvvetx.so \
     vendor/samsung/trelte-common/proprietary/lib/hw/camera.universal5433.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.vendor.universal5433.so \
     vendor/samsung/trelte-common/proprietary/lib/libexynoscamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynoscamera.so \
     vendor/samsung/trelte-common/proprietary/lib/libhwjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwjpeg.so \
