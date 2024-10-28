@@ -133,9 +133,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trelte-common/proprietary/lib/hw/gps.universal5433.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gps.universal5433.so \
     vendor/samsung/trelte-common/proprietary/lib/libwrappergps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwrappergps.so \
     vendor/samsung/trelte-common/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
-    vendor/samsung/trelte-common/proprietary/etc/lhd.conf:system/etc/lhd.conf \
-    vendor/samsung/trelte-common/proprietary/bin/lhd:system/bin/lhd \
-    vendor/samsung/trelte-common/proprietary/lib/hw/sensors.universal5433.so:system/lib/hw/sensors.universal5433.so \
+    vendor/samsung/trelte-common/proprietary/etc/lhd.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/lhd.conf \
+    vendor/samsung/trelte-common/proprietary/bin/lhd:$(TARGET_COPY_OUT_SYSTEM)/bin/lhd \
+    vendor/samsung/trelte-common/proprietary/lib/hw/sensors.universal5433.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.universal5433.so \
     vendor/samsung/trelte-common/proprietary/bin/sensorhubservice:$(TARGET_COPY_OUT_VENDOR)/bin/sensorhubservice \
     vendor/samsung/trelte-common/proprietary/lib/libgnustl_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgnustl_shared.so \
     vendor/samsung/trelte-common/proprietary/lib/libsensorhub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorhub.so \
