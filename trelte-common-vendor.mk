@@ -17,4 +17,7 @@
 # Pick up overlay for features that depend on non-open-source files
 DEVICE_PACKAGE_OVERLAYS := vendor/samsung/trelte-common/overlay
 
+# Mali symlinks for Vulkan and OpenCL
+PRODUCT_PACKAGES += libGLES_mali
+
 $(call inherit-product, vendor/samsung/trelte-common/trelte-common-vendor-blobs.mk)
