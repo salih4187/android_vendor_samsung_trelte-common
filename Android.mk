@@ -14,34 +14,4 @@
 
 ifneq ($(filter treltexx tre3gxx trelteskt tre3calteskt trhpltexx tbelteskt ,$(TARGET_DEVICE)),)
 
-LOCAL_PATH := $(call my-dir)
-
-include $(CLEAR_VARS)
-
-LOCAL_MODULE := libGLES_mali
-LOCAL_CHECK_ELF_FILES := false
-LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := proprietary/vendor/lib/egl/libGLES_mali.so
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR_SHARED_LIBRARIES)/egl
-
-SYMLINKS := $(TARGET_OUT)/vendor
-$(SYMLINKS):
-	@mkdir -p $@/lib
-	@echo "Symlink: vulkan.exynos5.so"
-	$(hide) ln -sf egl/libGLES_mali.so $@/lib/vulkan.exynos5.so
-	@echo "Symlink: libOpenCL.so"
-	$(hide) ln -sf egl/libGLES_mali.so $@/lib/libOpenCL.so
-	@echo "Symlink: libOpenCL.so.1"
-	$(hide) ln -sf egl/libGLES_mali.so $@/lib/libOpenCL.so.1
-	@echo "Symlink: libOpenCL.so.1.1"
-	$(hide) ln -sf egl/libGLES_mali.so $@/lib/libOpenCL.so.1.1
-
-ALL_MODULES.$(LOCAL_MODULE).INSTALLED := \
-	$(ALL_MODULES.$(LOCAL_MODULE).INSTALLED) $(SYMLINKS)
-
-include $(BUILD_PREBUILT)
-
 endif
