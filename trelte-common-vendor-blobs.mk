@@ -50,7 +50,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/trelte-common/proprietary/bin/argosd:$(TARGET_COPY_OUT_VENDOR)/bin/argosd \
     vendor/samsung/trelte-common/proprietary/bin/cs:$(TARGET_COPY_OUT_VENDOR)/bin/cs \
-    vendor/samsung/trelte-common/proprietary/bin/dhcpcd:$(TARGET_COPY_OUT_VENDOR)/bin/dhcpcd \
     vendor/samsung/trelte-common/proprietary/bin/IPSecService:$(TARGET_COPY_OUT_VENDOR)/bin/IPSecService \
     vendor/samsung/trelte-common/proprietary/bin/sswap:$(TARGET_COPY_OUT_VENDOR)/bin/sswap \
     vendor/samsung/trelte-common/proprietary/bin/gps.cer:$(TARGET_COPY_OUT_SYSTEM)/bin/gps.cer \
