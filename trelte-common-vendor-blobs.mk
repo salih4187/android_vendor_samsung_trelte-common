@@ -16,55 +16,55 @@
 
 # mcRegistry
 PRODUCT_COPY_FILES += \
-	vendor/samsung/trelte-common/proprietary/app/FFFFFFFF000000000000000000000001.drbin:$(TARGET_COPY_OUT_SYSTEM)/app/FFFFFFFF000000000000000000000001.drbin \
-	vendor/samsung/trelte-common/proprietary/app/mcRegistry/00060308060501020000000000000000.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/00060308060501020000000000000000.tlbin \
-	vendor/samsung/trelte-common/proprietary/app/mcRegistry/02010000080300030000000000000000.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/02010000080300030000000000000000.tlbin \
-	vendor/samsung/trelte-common/proprietary/app/mcRegistry/07010000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/07010000000000000000000000000000.tlbin \
-	vendor/samsung/trelte-common/proprietary/app/mcRegistry/07060000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/07060000000000000000000000000000.tlbin \
-	vendor/samsung/trelte-common/proprietary/app/mcRegistry/ffffffff00000000000000000000000a.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff00000000000000000000000a.tlbin \
-	vendor/samsung/trelte-common/proprietary/app/mcRegistry/ffffffff00000000000000000000000b.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff00000000000000000000000b.tlbin \
-	vendor/samsung/trelte-common/proprietary/app/mcRegistry/ffffffff00000000000000000000000c.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff00000000000000000000000c.tlbin \
-	vendor/samsung/trelte-common/proprietary/app/mcRegistry/ffffffff00000000000000000000000d.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff00000000000000000000000d.tlbin \
-	vendor/samsung/trelte-common/proprietary/app/mcRegistry/ffffffff00000000000000000000000e.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff00000000000000000000000e.tlbin \
-	vendor/samsung/trelte-common/proprietary/app/mcRegistry/ffffffff00000000000000000000000f.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff00000000000000000000000f.tlbin \
-	vendor/samsung/trelte-common/proprietary/app/mcRegistry/ffffffff00000000000000000000003e.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff00000000000000000000003e.tlbin \
-	vendor/samsung/trelte-common/proprietary/app/mcRegistry/ffffffff000000000000000000000004.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff000000000000000000000004.tlbin \
-	vendor/samsung/trelte-common/proprietary/app/mcRegistry/ffffffff000000000000000000000005.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff000000000000000000000005.tlbin \
-	vendor/samsung/trelte-common/proprietary/app/mcRegistry/ffffffff000000000000000000000011.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff000000000000000000000011.tlbin \
-	vendor/samsung/trelte-common/proprietary/app/mcRegistry/ffffffff000000000000000000000012.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff000000000000000000000012.tlbin \
-	vendor/samsung/trelte-common/proprietary/app/mcRegistry/ffffffff000000000000000000000013.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff000000000000000000000013.tlbin \
-	vendor/samsung/trelte-common/proprietary/app/mcRegistry/ffffffff000000000000000000000014.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff000000000000000000000014.tlbin \
-	vendor/samsung/trelte-common/proprietary/app/mcRegistry/ffffffff000000000000000000000016.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff000000000000000000000016.tlbin \
-	vendor/samsung/trelte-common/proprietary/app/mcRegistry/ffffffff000000000000000000000017.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff000000000000000000000017.tlbin \
-	vendor/samsung/trelte-common/proprietary/app/mcRegistry/ffffffff000000000000000000000018.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff000000000000000000000018.tlbin \
-	vendor/samsung/trelte-common/proprietary/app/mcRegistry/ffffffff000000000000000000000019.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff000000000000000000000019.tlbin \
-	vendor/samsung/trelte-common/proprietary/app/mcRegistry/ffffffff000000000000000000000041.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff000000000000000000000041.tlbin \
-	vendor/samsung/trelte-common/proprietary/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin \
-	vendor/samsung/trelte-common/proprietary/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin \
-	vendor/samsung/trelte-common/proprietary/app/mcRegistry/ffffffffd00000000000000000000004.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffffd00000000000000000000004.tlbin \
-	vendor/samsung/trelte-common/proprietary/app/mcRegistry/ffffffffd00000000000000000000014.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffffd00000000000000000000014.tlbin \
-	vendor/samsung/trelte-common/proprietary/app/mcRegistry/ffffffffd00000000000000000000016.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffffd00000000000000000000016.tlbin \
-	vendor/samsung/trelte-common/proprietary/app/mcRegistry/fffffffff0000000000000000000001e.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/fffffffff0000000000000000000001e.tlbin
+	vendor/samsung/trelte-common/proprietary/vendor/app/FFFFFFFF000000000000000000000001.drbin:$(TARGET_COPY_OUT_SYSTEM)/app/FFFFFFFF000000000000000000000001.drbin \
+	vendor/samsung/trelte-common/proprietary/vendor/app/mcRegistry/00060308060501020000000000000000.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/00060308060501020000000000000000.tlbin \
+	vendor/samsung/trelte-common/proprietary/vendor/app/mcRegistry/02010000080300030000000000000000.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/02010000080300030000000000000000.tlbin \
+	vendor/samsung/trelte-common/proprietary/vendor/app/mcRegistry/07010000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/07010000000000000000000000000000.tlbin \
+	vendor/samsung/trelte-common/proprietary/vendor/app/mcRegistry/07060000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/07060000000000000000000000000000.tlbin \
+	vendor/samsung/trelte-common/proprietary/vendor/app/mcRegistry/ffffffff00000000000000000000000a.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff00000000000000000000000a.tlbin \
+	vendor/samsung/trelte-common/proprietary/vendor/app/mcRegistry/ffffffff00000000000000000000000b.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff00000000000000000000000b.tlbin \
+	vendor/samsung/trelte-common/proprietary/vendor/app/mcRegistry/ffffffff00000000000000000000000c.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff00000000000000000000000c.tlbin \
+	vendor/samsung/trelte-common/proprietary/vendor/app/mcRegistry/ffffffff00000000000000000000000d.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff00000000000000000000000d.tlbin \
+	vendor/samsung/trelte-common/proprietary/vendor/app/mcRegistry/ffffffff00000000000000000000000e.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff00000000000000000000000e.tlbin \
+	vendor/samsung/trelte-common/proprietary/vendor/app/mcRegistry/ffffffff00000000000000000000000f.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff00000000000000000000000f.tlbin \
+	vendor/samsung/trelte-common/proprietary/vendor/app/mcRegistry/ffffffff00000000000000000000003e.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff00000000000000000000003e.tlbin \
+	vendor/samsung/trelte-common/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000004.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff000000000000000000000004.tlbin \
+	vendor/samsung/trelte-common/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000005.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff000000000000000000000005.tlbin \
+	vendor/samsung/trelte-common/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000011.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff000000000000000000000011.tlbin \
+	vendor/samsung/trelte-common/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000012.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff000000000000000000000012.tlbin \
+	vendor/samsung/trelte-common/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000013.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff000000000000000000000013.tlbin \
+	vendor/samsung/trelte-common/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000014.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff000000000000000000000014.tlbin \
+	vendor/samsung/trelte-common/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000016.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff000000000000000000000016.tlbin \
+	vendor/samsung/trelte-common/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000017.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff000000000000000000000017.tlbin \
+	vendor/samsung/trelte-common/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000018.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff000000000000000000000018.tlbin \
+	vendor/samsung/trelte-common/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000019.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff000000000000000000000019.tlbin \
+	vendor/samsung/trelte-common/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000041.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff000000000000000000000041.tlbin \
+	vendor/samsung/trelte-common/proprietary/vendor/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin \
+	vendor/samsung/trelte-common/proprietary/vendor/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin \
+	vendor/samsung/trelte-common/proprietary/vendor/app/mcRegistry/ffffffffd00000000000000000000004.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffffd00000000000000000000004.tlbin \
+	vendor/samsung/trelte-common/proprietary/vendor/app/mcRegistry/ffffffffd00000000000000000000014.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffffd00000000000000000000014.tlbin \
+	vendor/samsung/trelte-common/proprietary/vendor/app/mcRegistry/ffffffffd00000000000000000000016.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffffd00000000000000000000016.tlbin \
+	vendor/samsung/trelte-common/proprietary/vendor/app/mcRegistry/fffffffff0000000000000000000001e.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/fffffffff0000000000000000000001e.tlbin
 
 # Other Blobs
 PRODUCT_COPY_FILES += \
-    vendor/samsung/trelte-common/proprietary/bin/argosd:$(TARGET_COPY_OUT_VENDOR)/bin/argosd \
-    vendor/samsung/trelte-common/proprietary/bin/cs:$(TARGET_COPY_OUT_VENDOR)/bin/cs \
-    vendor/samsung/trelte-common/proprietary/bin/IPSecService:$(TARGET_COPY_OUT_VENDOR)/bin/IPSecService \
-    vendor/samsung/trelte-common/proprietary/bin/sswap:$(TARGET_COPY_OUT_VENDOR)/bin/sswap \
-    vendor/samsung/trelte-common/proprietary/bin/gps.cer:$(TARGET_COPY_OUT_SYSTEM)/bin/gps.cer \
-    vendor/samsung/trelte-common/proprietary/etc/wifi/bcmdhd_apsta.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_apsta.bin \
-    vendor/samsung/trelte-common/proprietary/etc/wifi/bcmdhd_ibss.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_ibss.bin \
-    vendor/samsung/trelte-common/proprietary/etc/wifi/bcmdhd_mfg.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_mfg.bin \
-    vendor/samsung/trelte-common/proprietary/etc/wifi/bcmdhd_sta.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_sta.bin \
-    vendor/samsung/trelte-common/proprietary/etc/wifi/cred.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/cred.conf \
-    vendor/samsung/trelte-common/proprietary/etc/wifi/nvram_mfg.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt \
-    vendor/samsung/trelte-common/proprietary/etc/wifi/nvram_mfg.txt_a0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_a0 \
-    vendor/samsung/trelte-common/proprietary/etc/wifi/nvram_mfg.txt_murata:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_murata \
-    vendor/samsung/trelte-common/proprietary/etc/wifi/nvram_net.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt \
-    vendor/samsung/trelte-common/proprietary/etc/wifi/nvram_net.txt_a0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_a0 \
-    vendor/samsung/trelte-common/proprietary/etc/wifi/nvram_net.txt_murata:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_murata \
-    vendor/samsung/trelte-common/proprietary/etc/sec_s3fwrn5_rfreg.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sec_s3fwrn5_rfreg.bin \
+    vendor/samsung/trelte-common/proprietary/vendor/bin/argosd:$(TARGET_COPY_OUT_VENDOR)/bin/argosd \
+    vendor/samsung/trelte-common/proprietary/vendor/bin/cs:$(TARGET_COPY_OUT_VENDOR)/bin/cs \
+    vendor/samsung/trelte-common/proprietary/vendor/bin/IPSecService:$(TARGET_COPY_OUT_VENDOR)/bin/IPSecService \
+    vendor/samsung/trelte-common/proprietary/vendor/bin/sswap:$(TARGET_COPY_OUT_VENDOR)/bin/sswap \
+    vendor/samsung/trelte-common/proprietary/vendor/bin/gps.cer:$(TARGET_COPY_OUT_SYSTEM)/bin/gps.cer \
+    vendor/samsung/trelte-common/proprietary/vendor/etc/wifi/bcmdhd_apsta.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_apsta.bin \
+    vendor/samsung/trelte-common/proprietary/vendor/etc/wifi/bcmdhd_ibss.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_ibss.bin \
+    vendor/samsung/trelte-common/proprietary/vendor/etc/wifi/bcmdhd_mfg.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_mfg.bin \
+    vendor/samsung/trelte-common/proprietary/vendor/etc/wifi/bcmdhd_sta.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_sta.bin \
+    vendor/samsung/trelte-common/proprietary/vendor/etc/wifi/cred.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/cred.conf \
+    vendor/samsung/trelte-common/proprietary/vendor/etc/wifi/nvram_mfg.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt \
+    vendor/samsung/trelte-common/proprietary/vendor/etc/wifi/nvram_mfg.txt_a0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_a0 \
+    vendor/samsung/trelte-common/proprietary/vendor/etc/wifi/nvram_mfg.txt_murata:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_murata \
+    vendor/samsung/trelte-common/proprietary/vendor/etc/wifi/nvram_net.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt \
+    vendor/samsung/trelte-common/proprietary/vendor/etc/wifi/nvram_net.txt_a0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_a0 \
+    vendor/samsung/trelte-common/proprietary/vendor/etc/wifi/nvram_net.txt_murata:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_murata \
+    vendor/samsung/trelte-common/proprietary/vendor/firmware/sec_s3fwrn5_rfreg.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sec_s3fwrn5_rfreg.bin \
     vendor/samsung/trelte-common/proprietary/vendor/firmware/sec_s3fwrn5_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sec_s3fwrn5_firmware.bin \
     vendor/samsung/trelte-common/proprietary/vendor/firmware/hevc_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/hevc_fw.bin \
     vendor/samsung/trelte-common/proprietary/vendor/firmware/mfc_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mfc_fw.bin \
@@ -76,55 +76,53 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trelte-common/proprietary/vendor/firmware/companion_fw_imx240_evt1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/companion_fw_imx240_evt1.bin \
     vendor/samsung/trelte-common/proprietary/vendor/firmware/companion_imx240_master_setfile.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/companion_imx240_master_setfile.bin \
     vendor/samsung/trelte-common/proprietary/vendor/firmware/companion_imx240_mode_setfile.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/companion_imx240_mode_setfile.bin \
-    vendor/samsung/trelte-common/proprietary/etc/firmware/florida-dsp1-edac.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/florida-dsp1-edac.bin \
-    vendor/samsung/trelte-common/proprietary/etc/firmware/florida-dsp1-edac.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/florida-dsp1-edac.wmfw \
-    vendor/samsung/trelte-common/proprietary/etc/firmware/florida-dsp2-tx-fb-meeting.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/florida-dsp2-tx-fb-meeting.bin \
-    vendor/samsung/trelte-common/proprietary/etc/firmware/florida-dsp2-tx-fb-meeting.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/florida-dsp2-tx-fb-meeting.wmfw \
-    vendor/samsung/trelte-common/proprietary/etc/firmware/florida-dsp2-tx-nb.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/florida-dsp2-tx-nb.wmfw \
-    vendor/samsung/trelte-common/proprietary/etc/firmware/florida-dsp2-tx-swb.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/florida-dsp2-tx-swb.wmfw \
-    vendor/samsung/trelte-common/proprietary/etc/firmware/florida-dsp2-tx-wb.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/florida-dsp2-tx-wb.wmfw \
-    vendor/samsung/trelte-common/proprietary/etc/firmware/florida-dsp3-ez2-control.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/florida-dsp3-ez2-control.wmfw \
-    vendor/samsung/trelte-common/proprietary/etc/firmware/florida-dsp3-lpsd-control.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/florida-dsp3-lpsd-control.bin \
-    vendor/samsung/trelte-common/proprietary/etc/firmware/florida-dsp3-tx-nb.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/florida-dsp3-tx-nb.bin \
-    vendor/samsung/trelte-common/proprietary/etc/firmware/florida-dsp3-tx-nb.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/florida-dsp3-tx-nb.wmfw \
-    vendor/samsung/trelte-common/proprietary/etc/firmware/florida-dsp3-tx-swb-conversation.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/florida-dsp3-tx-swb-conversation.bin \
-    vendor/samsung/trelte-common/proprietary/etc/firmware/florida-dsp3-tx-swb-interview.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/florida-dsp3-tx-swb-interview.bin \
-    vendor/samsung/trelte-common/proprietary/etc/firmware/florida-dsp3-tx-swb.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/florida-dsp3-tx-swb.wmfw \
-    vendor/samsung/trelte-common/proprietary/etc/firmware/florida-dsp3-tx-wb-meeting.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/florida-dsp3-tx-wb-meeting.bin \
-    vendor/samsung/trelte-common/proprietary/etc/firmware/florida-dsp3-tx-wb-meeting.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/florida-dsp3-tx-wb-meeting.wmfw \
-    vendor/samsung/trelte-common/proprietary/etc/firmware/florida-dsp3-tx-wb.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/florida-dsp3-tx-wb.bin \
-    vendor/samsung/trelte-common/proprietary/etc/firmware/florida-dsp3-tx-wb.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/florida-dsp3-tx-wb.wmfw \
-    vendor/samsung/trelte-common/proprietary/etc/firmware/florida-dsp4-dsm.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/florida-dsp4-dsm.wmfw \
-    vendor/samsung/trelte-common/proprietary/etc/firmware/florida-dsp4-rx-anc-nb.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/florida-dsp4-rx-anc-nb.bin \
-    vendor/samsung/trelte-common/proprietary/etc/firmware/florida-dsp4-rx-anc-nb.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/florida-dsp4-rx-anc-nb.wmfw \
-    vendor/samsung/trelte-common/proprietary/etc/firmware/florida-dsp4-rx-anc-wb.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/florida-dsp4-rx-anc-wb.bin \
-    vendor/samsung/trelte-common/proprietary/etc/firmware/florida-dsp4-rx-anc-wb.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/florida-dsp4-rx-anc-wb.wmfw \
+    vendor/samsung/trelte-common/proprietary/vendor/etc/firmware/florida-dsp1-edac.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/florida-dsp1-edac.bin \
+    vendor/samsung/trelte-common/proprietary/vendor/etc/firmware/florida-dsp1-edac.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/florida-dsp1-edac.wmfw \
+    vendor/samsung/trelte-common/proprietary/vendor/etc/firmware/florida-dsp2-tx-fb-meeting.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/florida-dsp2-tx-fb-meeting.bin \
+    vendor/samsung/trelte-common/proprietary/vendor/etc/firmware/florida-dsp2-tx-fb-meeting.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/florida-dsp2-tx-fb-meeting.wmfw \
+    vendor/samsung/trelte-common/proprietary/vendor/etc/firmware/florida-dsp2-tx-nb.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/florida-dsp2-tx-nb.wmfw \
+    vendor/samsung/trelte-common/proprietary/vendor/etc/firmware/florida-dsp2-tx-swb.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/florida-dsp2-tx-swb.wmfw \
+    vendor/samsung/trelte-common/proprietary/vendor/etc/firmware/florida-dsp2-tx-wb.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/florida-dsp2-tx-wb.wmfw \
+    vendor/samsung/trelte-common/proprietary/vendor/etc/firmware/florida-dsp3-ez2-control.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/florida-dsp3-ez2-control.wmfw \
+    vendor/samsung/trelte-common/proprietary/vendor/etc/firmware/florida-dsp3-lpsd-control.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/florida-dsp3-lpsd-control.bin \
+    vendor/samsung/trelte-common/proprietary/vendor/etc/firmware/florida-dsp3-tx-nb.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/florida-dsp3-tx-nb.bin \
+    vendor/samsung/trelte-common/proprietary/vendor/etc/firmware/florida-dsp3-tx-nb.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/florida-dsp3-tx-nb.wmfw \
+    vendor/samsung/trelte-common/proprietary/vendor/etc/firmware/florida-dsp3-tx-swb-conversation.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/florida-dsp3-tx-swb-conversation.bin \
+    vendor/samsung/trelte-common/proprietary/vendor/etc/firmware/florida-dsp3-tx-swb-interview.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/florida-dsp3-tx-swb-interview.bin \
+    vendor/samsung/trelte-common/proprietary/vendor/etc/firmware/florida-dsp3-tx-swb.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/florida-dsp3-tx-swb.wmfw \
+    vendor/samsung/trelte-common/proprietary/vendor/etc/firmware/florida-dsp3-tx-wb-meeting.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/florida-dsp3-tx-wb-meeting.bin \
+    vendor/samsung/trelte-common/proprietary/vendor/etc/firmware/florida-dsp3-tx-wb-meeting.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/florida-dsp3-tx-wb-meeting.wmfw \
+    vendor/samsung/trelte-common/proprietary/vendor/etc/firmware/florida-dsp3-tx-wb.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/florida-dsp3-tx-wb.bin \
+    vendor/samsung/trelte-common/proprietary/vendor/etc/firmware/florida-dsp3-tx-wb.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/florida-dsp3-tx-wb.wmfw \
+    vendor/samsung/trelte-common/proprietary/vendor/etc/firmware/florida-dsp4-dsm.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/florida-dsp4-dsm.wmfw \
+    vendor/samsung/trelte-common/proprietary/vendor/etc/firmware/florida-dsp4-rx-anc-nb.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/florida-dsp4-rx-anc-nb.bin \
+    vendor/samsung/trelte-common/proprietary/vendor/etc/firmware/florida-dsp4-rx-anc-nb.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/florida-dsp4-rx-anc-nb.wmfw \
+    vendor/samsung/trelte-common/proprietary/vendor/etc/firmware/florida-dsp4-rx-anc-wb.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/florida-dsp4-rx-anc-wb.bin \
+    vendor/samsung/trelte-common/proprietary/vendor/etc/firmware/florida-dsp4-rx-anc-wb.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/florida-dsp4-rx-anc-wb.wmfw \
     vendor/samsung/trelte-common/proprietary/vendor/firmware/seiren_fw_dram.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/seiren_fw_dram.bin \
     vendor/samsung/trelte-common/proprietary/vendor/firmware/seiren_fw_sram.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/seiren_fw_sram.bin \
+    vendor/samsung/trelte-common/proprietary/lib/libaudioroute.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudioroute.so \
     vendor/samsung/trelte-common/proprietary/vendor/lib/soundfx/liblvverx.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/liblvverx.so \
     vendor/samsung/trelte-common/proprietary/vendor/lib/soundfx/liblvvetx.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/liblvvetx.so \
-    vendor/samsung/trelte-common/proprietary/lib/libaudioroute.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudioroute.so \
-    vendor/samsung/trelte-common/proprietary/lib/libexynoscamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynoscamera.so \
-    vendor/samsung/trelte-common/proprietary/lib/libfloatingfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfloatingfeature.so \
-    vendor/samsung/trelte-common/proprietary/lib/libvdis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvdis.so \
+	vendor/samsung/trelte-common/proprietary/vendor/lib/libexynoscamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynoscamera.so \
+    vendor/samsung/trelte-common/proprietary/vendor/lib/libfloatingfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfloatingfeature.so \
+    vendor/samsung/trelte-common/proprietary/vendor/lib/libhwjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwjpeg.so \
+    vendor/samsung/trelte-common/proprietary/vendor/lib/libsecnativefeature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecnativefeature.so \
+    vendor/samsung/trelte-common/proprietary/vendor/lib/libvdis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvdis.so \
+    vendor/samsung/trelte-common/proprietary/vendor/lib/libwrappergps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwrappergps.so \
     vendor/samsung/trelte-common/proprietary/vendor/firmware/setfile_6d1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_6d1.bin \
     vendor/samsung/trelte-common/proprietary/vendor/firmware/setfile_imx240.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_imx240.bin \
-    vendor/samsung/trelte-common/proprietary/bin/gpsd:$(TARGET_COPY_OUT_SYSTEM)/bin/gpsd \
-    vendor/samsung/trelte-common/proprietary/lib/hw/camera.universal5433.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.vendor.universal5433.so \
-    vendor/samsung/trelte-common/proprietary/lib/hw/gps.universal5433.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gps.universal5433.so \
-    vendor/samsung/trelte-common/proprietary/lib/hw/nfc_nci.universal5433.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/nfc_nci.universal5433.so \
-    vendor/samsung/trelte-common/proprietary/lib/libhwjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwjpeg.so \
-    vendor/samsung/trelte-common/proprietary/lib/libwrappergps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwrappergps.so \
+    vendor/samsung/trelte-common/proprietary/vendor/bin/gpsd:$(TARGET_COPY_OUT_SYSTEM)/bin/gpsd \
+	vendor/samsung/trelte-common/proprietary/vendor/lib/hw/camera.universal5433.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.vendor.universal5433.so \
+    vendor/samsung/trelte-common/proprietary/vendor/lib/hw/gps.universal5433.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gps.universal5433.so \
+    vendor/samsung/trelte-common/proprietary/vendor/lib/hw/nfc_nci.universal5433.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/nfc_nci.universal5433.so \
     vendor/samsung/trelte-common/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
-    vendor/samsung/trelte-common/proprietary/vendor/lib/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so \
-    vendor/samsung/trelte-common/proprietary/vendor/lib/libOpenCL.so.1:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so.1 \
-    vendor/samsung/trelte-common/proprietary/vendor/lib/libOpenCL.so.1.1:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so.1.1 \
     vendor/samsung/trelte-common/proprietary/vendor/lib/vulkan.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib/vulkan.exynos5.so \
-    vendor/samsung/trelte-common/proprietary/etc/lhd.conf:$(TARGET_COPY_OUT_VENDOR)/etc/lhd.conf \
-    vendor/samsung/trelte-common/proprietary/bin/lhd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/lhd \
-    vendor/samsung/trelte-common/proprietary/lib/hw/sensors.universal5433.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.universal5433.so \
-    vendor/samsung/trelte-common/proprietary/bin/sensorhubservice:$(TARGET_COPY_OUT_VENDOR)/bin/sensorhubservice \
-    vendor/samsung/trelte-common/proprietary/bin/vcsFPService:$(TARGET_COPY_OUT_VENDOR)/bin/vcsFPService \
+    vendor/samsung/trelte-common/proprietary/vendor/etc/lhd.conf:$(TARGET_COPY_OUT_VENDOR)/etc/lhd.conf \
+    vendor/samsung/trelte-common/proprietary/vendor/bin/lhd:$(TARGET_COPY_OUT_VENDOR)/bin/lhd \
+    vendor/samsung/trelte-common/proprietary/vendor/lib/sensors.universal5433.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.universal5433.so \
+    vendor/samsung/trelte-common/proprietary/vendor/bin/sensorhubservice:$(TARGET_COPY_OUT_VENDOR)/bin/sensorhubservice \
+    vendor/samsung/trelte-common/proprietary/vendor/bin/vcsFPService:$(TARGET_COPY_OUT_VENDOR)/bin/vcsFPService \
     vendor/samsung/trelte-common/proprietary/vendor/lib/libfpasmtztransport.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfpasmtztransport.so \
     vendor/samsung/trelte-common/proprietary/vendor/lib/libvalAuth.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvalAuth.so \
     vendor/samsung/trelte-common/proprietary/vendor/lib/libvcsfp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcsfp.so \
@@ -132,8 +130,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trelte-common/proprietary/vendor/lib/libvfmtztransport.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvfmtztransport.so \
     vendor/samsung/trelte-common/proprietary/vendor/lib/libprotobuf-cpp-full-M.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-full-M.so \
     vendor/samsung/trelte-common/proprietary/vendor/lib/libstlport.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstlport.so \
-    vendor/samsung/trelte-common/proprietary/lib/libgnustl_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgnustl_shared.so \
-    vendor/samsung/trelte-common/proprietary/lib/libsensorhub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorhub.so \
-    vendor/samsung/trelte-common/proprietary/lib/libsensorhubservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorhubservice.so \
-    vendor/samsung/trelte-common/proprietary/lib/hw/sensorhubs.universal5433.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensorhubs.universal5433.so \
+    vendor/samsung/trelte-common/proprietary/vendor/lib/libgnustl_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgnustl_shared.so \
+    vendor/samsung/trelte-common/proprietary/vendor/lib/libsensorhub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorhub.so \
+    vendor/samsung/trelte-common/proprietary/vendor/lib/libsensorhubservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorhubservice.so \
+    vendor/samsung/trelte-common/proprietary/vendor/lib/hw/sensorhubs.universal5433.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensorhubs.universal5433.so \
     vendor/samsung/trelte-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so
