@@ -14,4 +14,17 @@
 
 ifneq ($(filter treltexx tre3gxx trelteskt tre3calteskt trhpltexx tbelteskt ,$(TARGET_DEVICE)),)
 
+include $(CLEAR_VARS)
+
+EGL_LIBS := libOpenCL.so libOpenCL.so.1 libOpenCL.so.1.1 #vulkan.exynos5.so
+
+EGL_SYMLINKS := $(addprefix $(TARGET_OUT_VENDOR)/lib/,$(EGL_LIBS))
+$(EGL_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
+	@echo "Symlink: EGL lib: $@"
+	@mkdir -p $(dir $@)
+	@rm -rf $@
+	$(hide) ln -sf /vendor/lib/egl/libGLES_mali.so $@
+
+ALL_DEFAULT_INSTALLED_MODULES += $(EGL_SYMLINKS)
+
 endif
