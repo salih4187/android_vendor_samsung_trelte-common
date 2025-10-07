@@ -131,7 +131,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trelte-common/proprietary/vendor/firmware/setfile_6d1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_6d1.bin \
     vendor/samsung/trelte-common/proprietary/vendor/firmware/setfile_imx240.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_imx240.bin \
     vendor/samsung/trelte-common/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
-    vendor/samsung/trelte-common/proprietary/vendor/lib/hw/camera.universal5433.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.vendor.universal5433.so \
+    vendor/samsung/trelte-common/proprietary/vendor/lib/hw/camera.vendor.universal5433.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.vendor.universal5433.so \
+    vendor/samsung/trelte-common/proprietary/vendor/lib/hw/flp.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/flp.default.so \
     vendor/samsung/trelte-common/proprietary/vendor/lib/hw/gps.universal5433.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gps.universal5433.so \
     vendor/samsung/trelte-common/proprietary/vendor/lib/hw/sensorhubs.universal5433.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensorhubs.universal5433.so \
     vendor/samsung/trelte-common/proprietary/vendor/lib/hw/sensors.vendor.universal5433.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.vendor.universal5433.so \
