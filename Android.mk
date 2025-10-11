@@ -12,11 +12,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-ifneq ($(filter treltexx tre3gxx trelteskt tre3calteskt trhpltexx tbelteskt ,$(TARGET_DEVICE)),)
+ifneq ($(filter trelte tre3g trelteskt tre3calteskt trhplte tbelteskt ,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 
-EGL_LIBS := libOpenCL.so libOpenCL.so.1 libOpenCL.so.1.1 #vulkan.exynos5.so
+EGL_LIBS := libOpenCL.so libOpenCL.so.1 libOpenCL.so.1.1 vulkan.exynos5.so
 
 EGL_SYMLINKS := $(addprefix $(TARGET_OUT_VENDOR)/lib/,$(EGL_LIBS))
 $(EGL_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
