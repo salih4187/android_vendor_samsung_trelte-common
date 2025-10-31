@@ -135,6 +135,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trelte-common/proprietary/vendor/lib/hw/consumerir.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/consumerir.exynos5.so \
     vendor/samsung/trelte-common/proprietary/vendor/lib/hw/flp.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/flp.default.so \
     vendor/samsung/trelte-common/proprietary/vendor/lib/hw/gps.universal5433.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gps.universal5433.so \
+    vendor/samsung/trelte-common/proprietary/vendor/lib/hw/nfc_nci.universal5433.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/nfc_nci.universal5433.so \
     vendor/samsung/trelte-common/proprietary/vendor/lib/hw/sensorhubs.universal5433.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensorhubs.universal5433.so \
     vendor/samsung/trelte-common/proprietary/vendor/lib/hw/sensors.vendor.universal5433.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.vendor.universal5433.so \
     vendor/samsung/trelte-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
