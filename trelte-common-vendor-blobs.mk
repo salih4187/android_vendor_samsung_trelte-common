@@ -141,6 +141,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trelte-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
     vendor/samsung/trelte-common/proprietary/vendor/lib/soundfx/liblvverx.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/liblvverx.so \
     vendor/samsung/trelte-common/proprietary/vendor/lib/soundfx/liblvvetx.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/liblvvetx.so \
+    vendor/samsung/trelte-common/proprietary/vendor/lib/libaptX_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaptX_encoder.so \
     vendor/samsung/trelte-common/proprietary/vendor/lib/libexynoscamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynoscamera.so \
     vendor/samsung/trelte-common/proprietary/vendor/lib/libfloatingfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfloatingfeature.so \
     vendor/samsung/trelte-common/proprietary/vendor/lib/libfpasmtztransport.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfpasmtztransport.so \
