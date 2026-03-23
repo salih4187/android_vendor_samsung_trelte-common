@@ -141,11 +141,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trelte-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
     vendor/samsung/trelte-common/proprietary/vendor/lib/soundfx/liblvverx.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/liblvverx.so \
     vendor/samsung/trelte-common/proprietary/vendor/lib/soundfx/liblvvetx.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/liblvvetx.so \
+    vendor/samsung/trelte-common/proprietary/vendor/lib/libagc_max.so:$(TARGET_COPY_OUT_VENDOR)/lib/libagc_max.so \
     vendor/samsung/trelte-common/proprietary/vendor/lib/libaptX_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaptX_encoder.so \
     vendor/samsung/trelte-common/proprietary/vendor/lib/libexynoscamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynoscamera.so \
     vendor/samsung/trelte-common/proprietary/vendor/lib/libfloatingfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfloatingfeature.so \
     vendor/samsung/trelte-common/proprietary/vendor/lib/libfpasmtztransport.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfpasmtztransport.so \
     vendor/samsung/trelte-common/proprietary/vendor/lib/libgnustl_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgnustl_shared.so \
+    vendor/samsung/trelte-common/proprietary/vendor/lib/libhr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhr.so \
     vendor/samsung/trelte-common/proprietary/vendor/lib/libhwjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwjpeg.so \
     vendor/samsung/trelte-common/proprietary/vendor/lib/libprotobuf-cpp-fooo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-fooo.so \
     vendor/samsung/trelte-common/proprietary/vendor/lib/libsecnativefeature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecnativefeature.so \
