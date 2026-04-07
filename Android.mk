@@ -16,7 +16,7 @@ ifneq ($(filter trelte tre3g trelteskt tre3calteskt trhplte tbelteskt ,$(TARGET_
 
 include $(CLEAR_VARS)
 
-EGL_LIBS := libOpenCL.so libOpenCL.so.1 libOpenCL.so.1.1 vulkan.exynos5.so
+EGL_LIBS := libOpenCL.so libOpenCL.so.1 libOpenCL.so.1.1
 
 EGL_SYMLINKS := $(addprefix $(TARGET_OUT_VENDOR)/lib/,$(EGL_LIBS))
 $(EGL_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
