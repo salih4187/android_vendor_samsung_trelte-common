@@ -159,5 +159,5 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trelte-common/proprietary/vendor/lib/hw/sensorhubs.universal5433.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensorhubs.universal5433.so \
     vendor/samsung/trelte-common/proprietary/vendor/lib/hw/sensors.vendor.universal5433.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.vendor.universal5433.so \
     vendor/samsung/trelte-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
-    vendor/samsung/trelte-common/proprietary/vendor/lib/soundfx/liblvverx.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/liblvverx.so \
-    vendor/samsung/trelte-common/proprietary/vendor/lib/soundfx/liblvvetx.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/liblvvetx.so
+    vendor/samsung/trelte-common/proprietary/vendor/lib/soundfx/liblvverx_3.25.00.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/liblvverx_3.25.00.so \
+    vendor/samsung/trelte-common/proprietary/vendor/lib/soundfx/liblvvetx_3.25.00.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/liblvvetx_3.25.00.so
